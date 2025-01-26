@@ -40,7 +40,7 @@ public class Program {
 		}
 		
 		
-		System.out.println("=== Test 4: seller findAll ===");
+		System.out.println("=== Test 4: seller Insert ===");
 		
 		Seller newSeller = new Seller(null, "Greg", "greg@gmail.com", new Date(), 4000.0, department);
  		sellerDao.insert(newSeller);
